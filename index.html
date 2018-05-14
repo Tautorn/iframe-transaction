@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>ZUP</title>
+  <script src="./urls.js"></script>
+  <script src="./config.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: 0;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <div id="app"></div>
+    <iframe id="iframe-health" src="http://www.zup.com.br/" frameborder="0" allowfullscreen></iframe>
+  </main>
+
+  <script src="app.js"></script>
+
+  <script>
+    initApplication(config, urls)
+  </script>
+</body>
+</html>
